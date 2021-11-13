@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#clock{
+	width: 250px;
+	height: 250px;
+	background-image: url('z2932350534973_7e0a5753425f1a9c3cde6a10767209d3.jpg');
+	background-size: cover;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	overflow: hidden;
+}
+
+#clock:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.number{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+}
+.number-1{
+	transform: rotate(30deg);
+}
+.number-2{
+	transform: rotate(60deg);
+}
+.number-3{
+	transform: rotate(90deg);
+}
+.number-4{
+	transform: rotate(120deg);
+}
+.number-5{
+	transform: rotate(150deg);
+}
+.number-6{
+	transform: rotate(180deg);
+}
+.number-7{
+	transform: rotate(210deg);
+}
+.number-8{
+	transform: rotate(240deg);
+}
+.number-9{
+	transform: rotate(270deg);
+}
+.number-10{
+	transform: rotate(300deg);
+}
+.number-11{
+	transform: rotate(330deg);
+}
+.number-12{
+	transform: rotate(360deg);
+}
+
+.shadow{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.2);
+}
+
+.kim{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.kim div{
+	position: absolute;
+	background: white;
+	bottom: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.gio{
+	width: 5px;
+	height: 50px;
+	background: white;
+}
+
+.phut{
+	width: 3px;
+	height: 70px;
+	background: white;
+}
+
+.giay{
+	width: 1px;
+	height: 90px;
+	background: white;
+}
